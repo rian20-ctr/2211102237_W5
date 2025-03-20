@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rian</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+<style>
+    body {
+        background-color: rgb(12, 155, 155);
+        padding-top: 20px;
+
+    }
+
+    h1 {
+        text-shadow: 1px 1px white;
+        padding-left: 40px;
+    }
+
+    form {
+        margin-inline: 20px;
+    }
+    figure{
+        padding-left: 40px;
+    }
+</style>
+
+<body>
+    <h1>Rian Fadila</h1>
+    <h1>2211102237</h1>
+    <h1>Purwokerto</h1>
+    <figure>
+        <img src="https://i.pinimg.com/736x/cb/44/4e/cb444e2ff7fbf9b1f6c6653f9b5550a9.jpg" alt="Kucing" width="250px">
+        <figcaption>Kucing Perampok</figcaption>
+    </figure>
+
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <label for="kategori">Pilih Hewan:</label>
+        <br>
+        <select id="kategori" name="kategori">
+            <option value="elektronik">Kucing</option>
+            <option value="pakaian">Ikan</option>
+            <option value="makanan">Kerbau</option>
+            <option value="buku">Sapi</option>
+        </select>
+        <br>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Cewe
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Cowo
+            </label>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</body>
+
+</html>
